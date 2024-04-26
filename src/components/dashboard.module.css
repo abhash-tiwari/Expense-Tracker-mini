@@ -1,0 +1,75 @@
+.container{
+    background: #626262;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    border-radius: 18px;
+}
+.wallet{
+    display: block;
+    background: #9B9B9B;
+    margin: 10px;
+    border-radius: 8px;
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+    padding-left: 15px;
+}
+.btn{
+    width: 167.65px;
+height: 38px;
+top: 245px;
+left: 183.88px;
+gap: 0px;
+opacity: 0px;
+background: linear-gradient(90deg, #B5DC52 0%, #89E148 100%);
+border-radius: 10px;
+
+}
+.btns {
+    width: 167.65px;
+height: 38px;
+top: 245px;
+left: 183.88px;
+gap: 0px;
+opacity: 0px;
+    background: linear-gradient(90deg, #FF9595 0%, #FF4747 80%, #FF3838 100%);
+    border-radius: 10px;
+
+}
+.transactions{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column; /* Stack transactions vertically */
+    /* gap: 10px; Adjust the gap between transactions */
+    border-radius: 15px;
+    background: #FFFFFF;
+    padding: 10px; /* Add padding to separate transactions from the container edges */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    overflow: auto;
+    margin: 20px;
+    /* margin-right: 20px; */
+}
+
+.modal {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  }
+  
+  .modalContent {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: fit-content;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
